@@ -1,0 +1,9 @@
+@mixin colorSize($letra, $tamaño) {
+    color: $letra;
+    font-size: $tamaño; 
+}
+
+@mixin display($display, $alineado) {
+    display: $display;
+    align-items: $alineado;
+}

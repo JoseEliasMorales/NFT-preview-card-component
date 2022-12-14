@@ -1,0 +1,16 @@
+@import "../mixins/_mixins";
+
+body{
+    background: var(--main-color);
+    main{
+        @include display(flex, center);
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        font-family: Outfit, sans-serif;
+        .attribution{
+            color: var(--white-color);
+        }
+    }
+}
+

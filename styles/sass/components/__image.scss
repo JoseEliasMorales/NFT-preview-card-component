@@ -1,0 +1,39 @@
+.card{
+    .card__boxImage{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 20px;
+        .card__box{
+            position: relative;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            .card__image{
+                width: 100%;
+                height: 100%;
+            }
+            .card__icon{
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: var(--font-colora);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: all 250ms ease-in-out;
+                
+                &:hover{
+                    opacity: 1;
+                    transition: all 250ms ease-in-out;
+                    cursor: pointer;
+                    visibility: visible;
+                }
+            }
+        }
+    } 
+}
+
+
